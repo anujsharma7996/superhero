@@ -4,8 +4,8 @@ const favList = [];
 let waiting;
 let waitingInterval = 600;
 let favCheck = false;
-const favIcon = "../assests/favstar.png";
-const notFavIcon = "../assests/unfavstar.png";
+const favIcon = 'assests/favstar.png';
+const notFavIcon = 'assests/unfavstar.png';
 
 // window.localStorage.setItem("heroes", JSON.stringify(Array()));
 
