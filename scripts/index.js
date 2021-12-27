@@ -112,8 +112,6 @@ displayHeroes = (heroesArray) => {
         <img alt="fav" src="${favSRC}" class="fav-icon" id="addFav">
       </div>`;
 
-    //https://cdn-icons-png.flaticon.com/128/130/130193.png
-
     displayHeroesContainer.innerHTML += html;
   });
 };
