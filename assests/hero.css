@@ -1,0 +1,89 @@
+@font-face {
+  font-family: fontRegular;
+  src: url(ComicNeue-Regular.ttf);
+}
+
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: fontRegular, Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  font-size: 1.1em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 50px;
+  box-shadow: 0 0 10px blueviolet;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.back-btn {
+  text-decoration: none;
+  position: absolute;
+  left: 15px;
+  color: white;
+}
+
+.back-btn:hover {
+  color: blueviolet;
+}
+
+.detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.left-side {
+  margin-right: 30px;
+}
+
+/* .right-side {
+  
+} */
+
+.fav-icon {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.hero-name {
+  margin: 0 0 10px 0;
+  display: inline-block;
+}
+
+h2 {
+  color: blueviolet;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.hero-img {
+  box-shadow: 0 0 20px blueviolet;
+  border-radius: 5px;
+}
+
+.heading {
+  color: white;
+  margin: 0;
+}
+
+.back {
+  margin: 0;
+  color: white;
+}
+
+.back:hover {
+  color: blueviolet;
+}
+
+.name-fav {
+  border-bottom: 2px dashed blueviolet;
+}

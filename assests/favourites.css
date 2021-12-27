@@ -1,0 +1,107 @@
+@font-face {
+  font-family: fontRegular;
+  src: url(ComicNeue-Regular.ttf);
+}
+
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: fontRegular, Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  font-size: 1.1em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 50px;
+  box-shadow: 0 0 10px blueviolet;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.back-btn {
+  text-decoration: none;
+  position: absolute;
+  left: 15px;
+  color: white;
+}
+
+.back-btn:hover {
+  color: blueviolet;
+}
+
+.fav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+  background-color: black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  border: 2px solid blueviolet;
+  box-shadow: 0px 0px 20px blueviolet;
+  border-radius: 10px;
+  height: 600px;
+}
+
+.hero-card span {
+  margin-bottom: 0px;
+}
+
+.hero-img {
+  width: 60%;
+  /* margin-right: 20px; */
+}
+
+.powerstats {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  /* align-items: center; */
+}
+
+.powerstats span {
+  width: 300px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+.hero-name {
+  margin-top: 25px;
+}
+
+.hero-name:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.fav-icon {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.fav-icon:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: blueviolet;
+}
