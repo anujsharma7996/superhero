@@ -69,7 +69,7 @@ function displayHeroes(hero) {
           alt="hero"
           class="hero-img"
         />
-        <span class="hero-name"><a href="/hero.html?id=${hero.id}">${hero.name}</a></span>
+        <span class="hero-name"><a href="superhero/hero.html?id=${hero.id}">${hero.name}</a></span>
         <br/>
         <div class="powerstats">
         <span>Combat: ${hero.powerstats.combat}</span>
