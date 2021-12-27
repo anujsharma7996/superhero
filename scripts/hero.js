@@ -1,5 +1,5 @@
-const favIcon = "../assests/favstar.png";
-const notFavIcon = "../assests/unfavstar.png";
+const favIcon = "assests/favstar.png";
+const notFavIcon = "assests/unfavstar.png";
 
 setup();
 
