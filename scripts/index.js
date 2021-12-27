@@ -7,8 +7,6 @@ let favCheck = false;
 const favIcon = "assests/favstar.png";
 const notFavIcon = "assests/unfavstar.png";
 
-// window.localStorage.setItem("heroes", JSON.stringify(Array()));
-
 checkLocalStorage();
 
 displayHeroesContainer.innerHTML = `<h3>Type something to begin search...</h3>`;
@@ -109,7 +107,7 @@ displayHeroes = (heroesArray) => {
           alt="hero"
           class="hero-img"
         />
-        <span class="hero-name"> <a href="superhero/hero.html?id=${hero.id}">${heroName}</a> </span>
+        <span class="hero-name"> <a href="hero.html?id=${hero.id}">${heroName}</a> </span>
         <br/>
         <img alt="fav" src="${favSRC}" class="fav-icon" id="addFav">
       </div>`;
