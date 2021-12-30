@@ -1,4 +1,4 @@
-#[Superhero Hunter](https://anujsharma7996.github.io/superhero/)
+# [Superhero Hunter](https://anujsharma7996.github.io/superhero/)
 
 Tools Used:
 
