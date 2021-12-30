@@ -1,5 +1,4 @@
-Superhero Hunter
-(https://anujsharma7996.github.io/superhero/)
+[Superhero Hunter](https://anujsharma7996.github.io/superhero/)
 
 Tools Used:
 
@@ -20,4 +19,4 @@ Tools Used:
 3. Click on the star icon to add/remove from favourites.
 
 ## Fixing image loading issue (Error 503)
-The server has a DDoS protection which might respond with a 503 error, to fix this just open [THIS](https://www.superherodb.com/pictures2/portraits/10/100/639.jpg) once and close it.
+The server has a DDoS protection which might respond with a 503 error, to fix this just open [THIS](https://www.superherodb.com/pictures2/portraits/10/100/639.jpg) once and then load the Superhero website again.
